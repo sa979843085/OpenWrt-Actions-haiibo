@@ -37,8 +37,8 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-a
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
 #netdata中文插件
 git_sparse_clone main https://github.com/sirpdboy/sirpdboy-package luci-app-netdata
-#netwizard设置向导
-git_sparse_clone main https://github.com/sirpdboy/sirpdboy-package luci-app-netwizard
+#wizard设置向导
+git clone --depth=1 https://github.com/kiddin9/luci-app-wizard package/luci-app-wizard
 #ddns-go插件
 git_sparse_clone main https://github.com/sirpdboy/sirpdboy-package ddns-go
 #luci-app-advancedplus
